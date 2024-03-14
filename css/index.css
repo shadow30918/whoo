@@ -1,0 +1,235 @@
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  position: relative;
+}
+
+section .inner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section .inner > * {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media all and (min-width: 1080px) {
+  section .inner {
+    width: 900px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  section .inner {
+    width: 1100px;
+  }
+}
+
+@media all and (min-width: 1900px) {
+  section .inner {
+    width: 1500px;
+  }
+}
+
+.kv .inner .first, .kv .inner .light {
+  width: 100%;
+}
+
+.kv .inner .first {
+  display: none;
+}
+
+.kv .inner .title {
+  width: 64.97396%;
+  top: 7%;
+}
+
+.kv .inner .subtitle {
+  width: 85.54688%;
+  bottom: 10%;
+}
+
+.product .inner .title {
+  width: 83.59375%;
+  top: 1%;
+}
+
+.product .inner .subtitle {
+  width: 88.80208%;
+  bottom: 4%;
+}
+
+.product .inner .p_dtl {
+  -webkit-transform: initial;
+          transform: initial;
+  left: auto;
+}
+
+.product .inner .p_dtl.p_01 {
+  width: 95.05208%;
+  top: 19%;
+  left: 4%;
+}
+
+.product .inner .p_dtl.p_02 {
+  width: 59.50521%;
+  top: 59%;
+  right: 0;
+}
+
+.product .inner .p_dtl.p_03 {
+  width: 69.27083%;
+  top: 68%;
+  left: 3%;
+}
+
+.product .inner .p_word {
+  -webkit-transform: initial;
+          transform: initial;
+  left: auto;
+}
+
+.product .inner .p_word.p_01 {
+  width: 22.65625%;
+  top: 35%;
+  left: 22%;
+}
+
+.product .inner .p_word.p_02 {
+  width: 22.52604%;
+  top: 49.5%;
+  right: 3%;
+}
+
+.product .inner .p_word.p_03 {
+  width: 19.01042%;
+  top: 56%;
+  left: 20%;
+}
+
+.set .inner .title {
+  width: 76.82292%;
+  top: 2%;
+}
+
+.set .inner .slider_wrap {
+  width: 100%;
+  top: 22%;
+}
+
+.set .inner .slider_wrap .set_slider .item > img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.set .inner .slider_wrap .set_slider .item a.btn {
+  position: relative;
+  display: block;
+  width: 38.93229%;
+  margin: 8% auto 2%;
+}
+
+.set .inner .slider_wrap .set_slider .item a.btn .light {
+  position: absolute;
+  top: 0;
+}
+
+.set .inner .slider_wrap .set_slider .item .tips {
+  width: 43.88021%;
+  margin: 0 auto;
+}
+
+.set .inner .slider_wrap .set_slider .slick-dots {
+  bottom: -10%;
+}
+
+.KOL {
+  display: none;
+}
+
+.KOL .inner .title {
+  width: 77.86458%;
+  top: 2%;
+}
+
+.KOL .inner .slider_wrap {
+  width: 100%;
+  top: 20%;
+}
+
+.KOL .inner .slider_wrap .KOL_slider .item .KOL_title {
+  position: relative;
+  width: 35%;
+  margin-left: 15%;
+}
+
+.KOL .inner .slider_wrap .KOL_slider .item .KOL_title .light {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.form .wrap {
+  position: absolute;
+  top: 0;
+}
+
+.form .wrap .shadow {
+  opacity: 1;
+}
+
+.form .wrap .form_wrap {
+  position: absolute;
+  top: 0;
+}
+
+.form .inner .title {
+  width: 66.66667%;
+  top: 2%;
+}
+
+.form .inner .dtl {
+  width: 77.99479%;
+  top: 38%;
+}
+
+.form .inner .form_input {
+  width: 100%;
+  top: 46%;
+  background: url("/img/form_input_mb.png") center center no-repeat;
+  background-size: 100%;
+  padding: 1% 0 0;
+}
+
+.form .inner .form_input .input {
+  font-size: 4.5vw;
+  display: block;
+  margin: 3% 0 3% 30%;
+  line-height: 1.5em;
+  height: 1.5em;
+}
+
+.form .inner .check {
+  font-size: 3vw;
+  top: 62%;
+  width: 65%;
+}
+
+.form .inner .btn {
+  width: 61.45833%;
+  top: 64%;
+}
+
+.form .inner .tips {
+  width: 82.29167%;
+  bottom: 10%;
+}

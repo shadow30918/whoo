@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Noto+Serif+TC:wght@700&display=swap');
+
+
+$pc-s:1080px;
+$pc-m:1200px;
+$pc-l:1900px;
+
+$pc-s-inner:900px;
+$pc-m-inner:1100px;
+$pc-l-inner:1500px;
+
+//pc-s
+@mixin pc-s() {
+    @media all and (min-width: $pc-s) {
+        @content;
+    }
+}
+//pc-m
+@mixin pc-m() {
+    @media all and (min-width:$pc-m) {
+        @content;
+    }
+}
+//pc-l
+@mixin pc-l() {
+    @media all and (min-width: $pc-l) {
+        @content;
+    }
+}
+ 
+ 
+img{
+    display: block;
+    width: 100%;
+    border: 0 solid transparent;
+    outline: 0;
+    
+}
+
+.info {
+    margin: 5% auto;
+    padding: 0 10%;
+
+    .list {
+        font-family: 'Noto Sans TC', serif;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+}
+
+.btn {
+    font-family: 'Noto Serif TC', serif;
+    width: 80%;
+    letter-spacing: 0.3em;
+    font-size: 5vw;
+    line-height: 2;
+    text-align: center;
+    margin: 5% auto 3%;
+
+    &.confirm {
+        background-color: #eee4e2;
+    }
+
+    &.complet {
+        display: none;
+        background-color: #ccc;
+        color: #fff;
+    }
+}
+
+.tips {
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+
+
